@@ -6,12 +6,12 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "node node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "author": "Sereen Hanandeh",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^6.0.5"
+    "vite": "^3.2.5"
   }
 }
